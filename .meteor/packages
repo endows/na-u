@@ -9,3 +9,5 @@ autopublish
 insecure
 nimble:restivus
 coffeescript
+mquandalle:jade
+twbs:bootstrap
