@@ -1,9 +1,17 @@
 head
   title na-u 共有しよう。今を
+  link(rel='stylesheet', href='https://storage.googleapis.com/code.getmdl.io/1.0.2/material.indigo-pink.min.css')
+  script(src='https://storage.googleapis.com/code.getmdl.io/1.0.2/material.min.js')
+  link(rel='stylesheet', href='https://fonts.googleapis.com/icon?family=Material+Icons')
 
 body
+  +StateList
   .text-center
     h1(style='font-size:300px;') na-u
+    button.mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect.mdl-button--accent
+      | Button
+    button.mdl-button.mdl-js-button.mdl-button--fab.mdl-button--colored.mdl-js-ripple-effect.mdl-button--accent
+      i.material-icons add
     h3
       small 共有しよう。
         a(href='/hello') 今
